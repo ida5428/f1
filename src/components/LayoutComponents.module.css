@@ -1,0 +1,42 @@
+.header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: gray;
+}
+
+.header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.header:has(li:hover) li:not(:hover) {
+  opacity: 0.5;
+}
+
+.header li {
+  transition: opacity 0.2s ease;
+  font-size: 1.2rem;
+}
+
+.footer {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 200px;
+  background-color: gray;
+}
+
+.footer div {
+  width: fit-content;
+}
+
+.footer a {
+  text-decoration: underline;
+}

@@ -1,13 +1,13 @@
 // import Image from "next/image";
-import styles from "./page.module.css";
-// import { Header, Footer } from "../components/LayoutComponents";
+// import styles from "./page.module.css";
+
 // const isProduction = process.env.NODE_ENV === 'production';
 // const basePath = isProduction ? '/f1' : '';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <h1>Home</h1>
+    <div >
+      <h1>Drivers</h1>
     </div>
   );
 }
