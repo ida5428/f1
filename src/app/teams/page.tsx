@@ -1,8 +1,8 @@
-// import Image from "next/image";
-// import styles from "./page.module.css";
+import Image from "next/image";
+import styles from "./page.module.css";
 
-// const isProduction = process.env.NODE_ENV === 'production';
-// const basePath = isProduction ? '/f1' : '';
+const isProduction = process.env.NODE_ENV === 'production';
+const basePath = isProduction ? '/f1' : '';
 
 export default function Home() {
   return (

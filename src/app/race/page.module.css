@@ -1,0 +1,11 @@
+.table {
+  border: 1px solid #000;
+}
+
+.table tr {
+  margin-right: 300px;
+}
+
+.table td {
+  margin-right: 30px;
+}
