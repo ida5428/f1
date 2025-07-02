@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./LayoutComponents.module.css";
 
 const isProduction = process.env.NODE_ENV === 'production';
-const basePath = isProduction ? '/f1' : '';
+const basePath = isProduction ? '/f1-site' : '';
 
 export const Header: React.FC = () => {
   return (

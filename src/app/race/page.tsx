@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const isProduction = process.env.NODE_ENV === 'production';
-const basePath = isProduction ? '/f1' : '';
+const basePath = isProduction ? '/f1-site' : '';
 
 export default function Race() {
   const [raceData, setRaceData] = useState<any[]>([]);
